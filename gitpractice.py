@@ -2,7 +2,10 @@ toDoList = ["Math Homework", "Cook Dinner", "Fold Laundry"]
 
 def addItem(item):
    toDoList.append(item)
-   return toDoList
+   return toDoLis
+
+def deleteItem(item):
+    
 
 userAns = input("Do you want to add to your list or quit? A/Q")
 while userAns == "A":
